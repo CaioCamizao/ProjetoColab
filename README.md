@@ -5,8 +5,8 @@ Bem-vindo ao nosso projeto colaborativo no GitHub! Este projeto visa desenvolver
 ## Tecnologias Utilizadas
 
 - **Linguagem de Programação**: JavaScript
-- **Framework Web**: React
-- **Banco de Dados**: MySQL
+- **Framework Web**: Express
+- **Banco de Dados**: MongoDB
 - **Ferramenta de Testes**: Mocha
 
 ## Funcionalidades
