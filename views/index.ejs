@@ -15,12 +15,17 @@
     <ul>
       <% tasksList.forEach((task) => { %>
         <li>
-          <%= task.task %> | <% task.date.toLocalDateString('pt-BR') %>
+          <%= task.task %>
+          <% if (task.date) { %>
+            <% const dateObject = new Date(task.date); %>
+            <%= dateObject.toLocaleDateString('pt-BR') %>
+          <% } else { %>
+            Data não definida
+          <% } %>
         </li>
       <% }) %>
-    </ul>
+    </ul>    
     
-
     <script src="script.js"></script>
 </body>
 </html>

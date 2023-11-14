@@ -1,14 +1,13 @@
-const mongoose = require("mongoose");
+const mongoose = require('mongoose');
 
 const TaskSchema = new mongoose.Schema({
   task: {
     type: String,
     required: true,
-  
   },
   check: {
     type: Boolean,
-    required: true,
+    default: false,
   },
   date: {
     type: Date,
@@ -16,4 +15,4 @@ const TaskSchema = new mongoose.Schema({
   },
 });
 
-module.exports = mongoose.model("Task", TaskSchema);
+module.exports = mongoose.model('Task', TaskSchema);

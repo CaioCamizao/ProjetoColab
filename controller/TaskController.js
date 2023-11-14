@@ -1,30 +1,30 @@
-const Task = require( "../models/Task" );
+const Task = require('../models/Task');
 
-const getAllTask = async (req, res) => {
-  try{
+const getAllTasks = async (req, res) => {
+  try {
     const tasksList = await Task.find();
-    return res.render("index", {tasksList});
-  } catch(err){
-    res.status(500).send({error: err.message});
-  } 
+    return res.render('index', { tasksList });
+  } catch (err) {
+    res.status(500).send({ error: err.message });
+  }
 };
 
-const creatTasks = async (req, res) => {
+const createTask = async (req, res) => {
   const task = req.body;
 
-  if(!task.task){
-    return res.rediret("/");
+  if (!task.task) {
+    return res.redirect('/');
   }
 
   try {
-    await Task.creat(task)
+    await Task.create(task);
     return res.redirect("/");
-  } catch(err) {
-    res.status(500).send({error: err.message})
+  } catch (err) {
+    res.status(500).send({ error: err.message });
   }
 };
 
 module.exports = {
   getAllTasks,
-  creatTask,
+  createTask,
 };
