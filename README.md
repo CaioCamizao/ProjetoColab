@@ -19,6 +19,6 @@ O projeto incluirá as seguintes funcionalidades:
   - PUT: Atualizar informações de um usuário existente.
   - DELETE: Excluir um usuário.
 
-- **Armazenamento de Dados**: Utilizaremos o banco de dados MySQL para armazenar e gerenciar as informações dos usuários de forma persistente.
+- **Armazenamento de Dados**: Utilizaremos o banco de dados MongoDB Atlas para armazenar e gerenciar as informações dos usuários de forma persistente.
 
 - **Test-Driven Development (TDD)**: Seguiremos a metodologia TDD para garantir que nosso código seja robusto e livre de erros desde o início. Isso significa que criaremos testes automatizados antes de escrever o código de implementação.
