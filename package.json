@@ -1,5 +1,5 @@
 {
-  "name": "to-do-list-tdd",
+  "name": "to-do-list-tdd", // Mantendo a alteração da SecondBranch
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
