@@ -72,4 +72,6 @@ Capacitar e inspirar através do domínio das práticas de JavaScript com Node.j
 
 ## Licença
 
-Este projeto é licenciado sob a [Licença], o que significa que você é livre para explorar, adaptar e compartilhar. Lembre-se sempre de citar a fonte, pois a colaboração é a chave para um futuro brilhante!
+Este projeto é licenciado sob a MIT License
+
+Copyright (c) 2023 Caio Camizão, o que significa que você é livre para explorar, adaptar e compartilhar. Lembre-se sempre de citar a fonte, pois a colaboração é a chave para um futuro brilhante!
