@@ -27,7 +27,7 @@ const createTask = async (req, res) => {
 const getById = async (req, res) => {
   try {
     const tasksList = await Task.find();
-    if (req.params.method == "update") {
+    if (req.params.method == 'update') {
       const task = await Task.findOne({ _id: req.params.id });
       res.render('index', { task, taskDelete: null, tasksList });
     } else {
@@ -49,17 +49,16 @@ const updateOneTask = async (req, res) => {
   }
 };
 
-const deleteOneTask = async(req, res) => {
+const deleteOneTask = async (req, res) => {
   const id = req.params.id;
 
-  try{
-    await Task.deleteOne({_id: req.params.id});
-    res.redirect("/");
+  try {
+    await Task.deleteOne({ _id: req.params.id });
+    res.redirect('/');
   } catch (err) {
-    res.status(500).send({error: err.message});
+    res.status(500).send({ error: err.message });
   }
 };
-
 
 module.exports = {
   getAllTasks,
