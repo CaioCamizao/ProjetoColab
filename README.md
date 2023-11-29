@@ -1,77 +1,77 @@
-# Projeto Colab - API Rest com Banco de Dados e Test-Driven Development (TDD)
+# Colab Project - Rest API with Database and Test-Driven Development (TDD)
 
-Bem-vindo ao Projeto Colab no GitHub! 🚀
+Welcome to the Colab Project on GitHub! 🚀
 
-**Inovando Colaborativamente para um Futuro mais Conectado.**
+**Innovating Collaboratively for a More Connected Future.**
 
-Este projeto é uma sugestão de um amigo chamado Mir! Ele está aqui para validar cada etapa do projeto, oferecendo uma oportunidade única de aumentar o nosso portfólio e aprimorar nossas habilidades de programação.
+This project is a suggestion from a friend named Mir! It's here to validate each step of the project, offering a unique opportunity to enhance our portfolio and improve our programming skills.
 
-## O que é isso?
+## What is This?
 
-Imagine construir algo diferente dos demais juntos! O Projeto Colab é mais do que uma API Rest, é uma ideia criativa de desenvolvimento colaborativo. Estamos aqui para criar uma ferramenta incrível que vai além do tradicional em listagem de tarefas proporcionando experiências únicas para quem busca inovação.
+Imagine building something different together! The Colab Project is more than a Rest API; it's a creative idea for collaborative development. We are here to create an amazing tool that goes beyond the traditional task listing, providing unique experiences for those seeking innovation.
 
-## Como Funciona?
+## How Does It Work?
 
-Desmistificamos o desenvolvimento para você. Siga esses passos e veja a mágica acontecer:
+We demystify development for you. Follow these steps and watch the magic happen:
 
-1. **Instalação:** Execute `npm install` para configurar tudo.
-2. **Execução:** Inicie o Projeto Colab com `npm start` e prepare-se para ser surpreendido!
+1. **Installation:** Run `npm install` to set everything up.
+2. **Execution:** Start the Colab Project with `npm start` and get ready to be amazed!
 
-## Tecnologias Utilizadas
+## Technologies Used
 
-- **Linguagem de Programação:** JavaScript
-- **Framework Web:** Express
-- **Banco de Dados:** MongoDB
-- **Ferramenta de Testes:** Mocha
+- **Programming Language:** JavaScript
+- **Web Framework:** Express
+- **Database:** MongoDB
+- **Testing Tool:** Mocha
 
-## Funcionalidades
+## Features
 
-O Projeto Colab incluirá as seguintes funcionalidades:
+The Colab Project will include the following features:
 
-### Métodos HTTP:
+### HTTP Methods:
 
-- **GET:** Recuperar informações dos usuários.
-- **POST:** Adicionar um novo usuário.
-- **PUT:** Atualizar informações de um usuário existente.
-- **DELETE:** Excluir um usuário.
+- **GET:** Retrieve user information.
+- **POST:** Add a new user.
+- **PUT:** Update information for an existing user.
+- **DELETE:** Delete a user.
 
-### Armazenamento de Dados:
+### Data Storage:
 
-Utilizaremos o banco de dados MongoDB Atlas para armazenar e gerenciar as informações dos usuários de forma persistente.
+We will use the MongoDB Atlas database to store and manage user information persistently.
 
 ### Test-Driven Development (TDD):
 
-Estamos comprometidos com a metodologia TDD para garantir que nosso código seja robusto e livre de erros desde o início. Isso significa que criaremos testes automatizados antes de escrever o código de implementação.
+We are committed to the TDD methodology to ensure that our code is robust and error-free from the beginning. This means we will create automated tests before writing the implementation code.
 
-## Por Que Usar o Projeto Colab?
+## Why Use the Colab Project?
 
-Descubra a inovação por trás do Projeto Colab:
+Discover the innovation behind the Colab Project:
 
-- 🚀 **Rápido e Eficiente:** Desenvolvido com um desempenho excepcional que faz você aplicar conhecimentos além dos tradicionais.
-- 🌈 **Personalizável:** Adapte o Projeto Colab às suas necessidades e transforme ideias em realidade.
-- 🤝 **Comunidade Ativa:** Junte-se à nossa comunidade, compartilhe insights e participe do desenvolvimento que está moldando o amanhã!
+- 🚀 **Fast and Efficient:** Developed with exceptional performance that makes you apply knowledge beyond the traditional.
+- 🌈 **Customizable:** Adapt the Colab Project to your needs and turn ideas into reality.
+- 🤝 **Active Community:** Join our community, share insights, and participate in the development that is shaping tomorrow!
 
-## Como Posso Contribuir?
+## How Can I Contribute?
 
-Queremos ouvir sua voz, não importa o quão experiente você seja! Estamos ansiosos por novas ideias e contribuições. Confira nosso guia de contribuição em [CONTRIBUTING.md] para começar sua jornada conosco.
+We want to hear your voice, no matter how experienced you are! We look forward to new ideas and contributions. Check out our contribution guide at [CONTRIBUTING.md] to start your journey with us.
 
-## Quem São os Mágicos Por Trás Disso?
+## Who Are the Wizards Behind This?
 
-Somos mais do que uma equipe, somos um movimento:
+We are more than a team; we are a movement:
 
-- **Mir Carvalho** - Especialista em Programação Front-end / Back-end e UI/UX.
-- **Caio Camizão** – Enthusiasta e dedicado aprendiz de programação.
+- **Mir Carvalho** - Front-end/Back-end Programming Specialist and UI/UX.
+- **Caio Camizão** – Enthusiast and dedicated programming learner.
 
-## Visão
+## Vision
 
-Ser uma referência em desenvolvimento colaborativo, inspirando comunidades a abraçarem a inovação através do compartilhamento de conhecimento e colaboração eficaz.
+To be a reference in collaborative development, inspiring communities to embrace innovation through knowledge sharing and effective collaboration.
 
-## Missão
+## Mission
 
-Capacitar e inspirar através do domínio das práticas de JavaScript com Node.js. Promovemos a excelência no desenvolvimento colaborativo, demonstrando como a aplicação eficaz do TDD e a criação de uma API Rest completa podem transformar ideias em realidade.
+Empower and inspire through mastering JavaScript practices with Node.js. We promote excellence in collaborative development, demonstrating how effective TDD application and creating a complete Rest API can turn ideas into reality.
 
-## Licença
+## License
 
-Este projeto é licenciado sob a MIT License
+This project is licensed under the MIT License.
 
-Copyright (c) 2023 Caio Camizão, o que significa que você é livre para explorar, adaptar e compartilhar. Lembre-se sempre de citar a fonte, pois a colaboração é a chave para um futuro brilhante!
+Copyright (c) 2023 Caio Camizão, which means you are free to explore, adapt, and share. Always remember to give credit, as collaboration is the key to a bright future!
