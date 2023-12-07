@@ -1,4 +1,4 @@
-import { getAll, newUser, userExists } from "../models/Users";
+import { deleta, getAll, newUser, userExists } from "../models/Users";
 
 const all = async () => {
     const users = await getAll();
@@ -14,6 +14,14 @@ const create = async ({ email, senha }) => {
     return user;
 };
 
+const deleter = async ({ id }) => {
+    const usuario = await  userExists({ id });
+
+    if (!usuario) return { message: 'User not found' };
+    const user = await deleta({ id });
+    return user;
+};
+
 const login = async () => null;
 
-export { all, login, create };
+export { all, login, create, deleter };

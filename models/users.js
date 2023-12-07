@@ -1,3 +1,4 @@
+import { ObjectId } from 'mongodb';
 import connection from './mongoDbConnection';
 
 const getAll = async () => {
@@ -12,17 +13,23 @@ const newUser = async ({ email, senha }) => {
   return { email, _id };
 };
 
-const userExists = async ({ email, uuid }) => {
+const userExists = async ({ email, id }) => {
   const db = await connection();
   let user = null;
-  if (uuid) {
-    user = await db.collection('users').findOne({ uuid });
+  if (id) {
+    user = await db.collection('users').findOne({ _id: ObjectId(id) });
   } else {
     user = await db.collection('users').findOne({ email });
   }
   return user;
+};
+
+const deleta = async ({ id }) => {
+  const db = await connection();
+  await db.collection('user').deleteOne({ _id: ObjectId(id) });
+  return { id };
 }
 
 const login = async () => null;
 
-export { getAll, login, newUser, userExists };
+export { getAll, login, newUser, userExists, deleta };
