@@ -1,4 +1,4 @@
-import { all, create, deleter } from '../services/usersServices';
+import { all, create, deleter, atualizar } from '../services/usersServices';
 
 const getAll = async (req, res) => {
   const users = await all();
@@ -25,6 +25,14 @@ const deleteUser = async (req, res) => {
   return res.status(200).json(user);
 };
 
+const updateUser = async (req, res) => {
+  const { email, senha } = req.body;
+  const { id } = req.params;
+
+  const user = await atualizar({ id, email, senha });
+  res.status(200).json(user);
+}
+
 const login = async () => null;
 
-export { getAll, login, createUser, deleteUser };
+export { getAll, login, createUser, deleteUser, updateUser };

@@ -30,6 +30,12 @@ const deleta = async ({ id }) => {
   return { id };
 }
 
+const update = async({ id, email, senha }) => {
+  const db = await connection();
+  await db.collection('user').updateOne({ _id: ObjectId(id) }, { $set: { email, senha } });
+  return { id, email };
+}
+
 const login = async () => null;
 
 export { getAll, login, newUser, userExists, deleta };
