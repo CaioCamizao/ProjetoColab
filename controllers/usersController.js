@@ -21,7 +21,7 @@ const createUser = async (req, res) => {
 
 const deleteUser = async (req, res) => {
   const { id } = req.params;
-  const user = deleter({ id });
+  const user = await deleter({ id });
   return res.status(200).json(user);
 };
 

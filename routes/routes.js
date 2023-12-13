@@ -11,6 +11,6 @@ routes.get('/user', getAll);
 
 routes.post('/user', createUser);
 
-routes.delete('user/:id', deleteUser);
+routes.delete('/user/:id', deleteUser);
 
 export default routes;
