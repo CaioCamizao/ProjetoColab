@@ -1,4 +1,4 @@
-import { deleta, getAll, newUser, userExists, update } from "../models/Users";
+import { deleta, getAll, newUser, userExists, update } from "../models/users";
 
 const all = async () => {
     const users = await getAll();
