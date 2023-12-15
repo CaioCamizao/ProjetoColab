@@ -4,7 +4,7 @@ import { createUser, getAll, deleteUser, updateUser} from "../controllers/UsersC
 const routes = new Router();
 
 routes.get('/', (req, res) => {
-    res.status(200).json({ ok: 'conected' });
+    res.status(200).json({ ok: 'connected' });
 });
 
 routes.get('/user', getAll);
